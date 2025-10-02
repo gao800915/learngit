@@ -1,0 +1,3 @@
+/home/oiopi/game/learngit/maze/build/CMakeFiles/maze_game.dir
+/home/oiopi/game/learngit/maze/build/CMakeFiles/edit_cache.dir
+/home/oiopi/game/learngit/maze/build/CMakeFiles/rebuild_cache.dir
