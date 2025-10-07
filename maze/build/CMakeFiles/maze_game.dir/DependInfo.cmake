@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/oiopi/game/learngit/maze/scr/game.cpp" "CMakeFiles/maze_game.dir/scr/game.cpp.o" "gcc" "CMakeFiles/maze_game.dir/scr/game.cpp.o.d"
   "/home/oiopi/game/learngit/maze/scr/main.cpp" "CMakeFiles/maze_game.dir/scr/main.cpp.o" "gcc" "CMakeFiles/maze_game.dir/scr/main.cpp.o.d"
   "/home/oiopi/game/learngit/maze/scr/map.cpp" "CMakeFiles/maze_game.dir/scr/map.cpp.o" "gcc" "CMakeFiles/maze_game.dir/scr/map.cpp.o.d"
   "/home/oiopi/game/learngit/maze/scr/player.cpp" "CMakeFiles/maze_game.dir/scr/player.cpp.o" "gcc" "CMakeFiles/maze_game.dir/scr/player.cpp.o.d"

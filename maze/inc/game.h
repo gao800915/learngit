@@ -1,4 +1,3 @@
-
 #pragma once
 #include "map.h"
 #include "player.h"
@@ -8,7 +7,7 @@ public:
     Game();
     ~Game() = default;
     
-    // control the process of game
+    // 游戏流程控制
     void run();
     
 private:
@@ -16,17 +15,17 @@ private:
     Player player;
     bool gameRunning;
     
-    // the status of game
+    // 游戏状态
     void mainMenu();
     void selectMap();
     void gameLoop();
     void displayGameState() const;
     
-    // user input
+    // 用户输入
     char getPlayerInput() const;
     void handleInput(char input);
     
-    // logic of the game
+    // 游戏逻辑
     void checkTraps();
-    void checkWinCondition();
+    void checkWinCondition(bool& levelCompleted); // 添加参数
 };

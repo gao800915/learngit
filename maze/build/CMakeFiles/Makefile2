@@ -81,12 +81,12 @@ clean: CMakeFiles/maze_game.dir/clean
 CMakeFiles/maze_game.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_game.dir/build.make CMakeFiles/maze_game.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_game.dir/build.make CMakeFiles/maze_game.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oiopi/game/learngit/maze/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target maze_game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/oiopi/game/learngit/maze/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target maze_game"
 .PHONY : CMakeFiles/maze_game.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/maze_game.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/oiopi/game/learngit/maze/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/oiopi/game/learngit/maze/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/maze_game.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/oiopi/game/learngit/maze/build/CMakeFiles 0
 .PHONY : CMakeFiles/maze_game.dir/rule

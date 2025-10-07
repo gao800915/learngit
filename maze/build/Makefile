@@ -129,6 +129,30 @@ maze_game/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_game.dir/build.make CMakeFiles/maze_game.dir/build
 .PHONY : maze_game/fast
 
+scr/game.o: scr/game.cpp.o
+.PHONY : scr/game.o
+
+# target to build an object file
+scr/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_game.dir/build.make CMakeFiles/maze_game.dir/scr/game.cpp.o
+.PHONY : scr/game.cpp.o
+
+scr/game.i: scr/game.cpp.i
+.PHONY : scr/game.i
+
+# target to preprocess a source file
+scr/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_game.dir/build.make CMakeFiles/maze_game.dir/scr/game.cpp.i
+.PHONY : scr/game.cpp.i
+
+scr/game.s: scr/game.cpp.s
+.PHONY : scr/game.s
+
+# target to generate assembly for a file
+scr/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maze_game.dir/build.make CMakeFiles/maze_game.dir/scr/game.cpp.s
+.PHONY : scr/game.cpp.s
+
 scr/main.o: scr/main.cpp.o
 .PHONY : scr/main.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... maze_game"
+	@echo "... scr/game.o"
+	@echo "... scr/game.i"
+	@echo "... scr/game.s"
 	@echo "... scr/main.o"
 	@echo "... scr/main.i"
 	@echo "... scr/main.s"

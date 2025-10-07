@@ -6,4 +6,5 @@ add_executable(maze_game
     scr/point.cpp
     scr/map.cpp
     scr/player.cpp
+    scr/game.cpp
 )

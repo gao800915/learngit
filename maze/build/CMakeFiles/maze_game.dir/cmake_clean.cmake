@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/maze_game.dir/scr/game.cpp.o"
+  "CMakeFiles/maze_game.dir/scr/game.cpp.o.d"
   "CMakeFiles/maze_game.dir/scr/main.cpp.o"
   "CMakeFiles/maze_game.dir/scr/main.cpp.o.d"
   "CMakeFiles/maze_game.dir/scr/map.cpp.o"
